@@ -1,8 +1,12 @@
+import Header from './components/header/header'
+import Products from './components/products/products'
 
 const App = () => {
   return (
-    <section className="">
-    </section>
+    <>
+      <Header />
+      <Products />
+    </>
   )
 }
 
